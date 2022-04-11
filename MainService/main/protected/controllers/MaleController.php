@@ -1,5 +1,5 @@
 <?php
-class MaleController extends CController{
+class MaleController extends BaseController {
    public function actionindex(){
        $showList=array(
            'num'=>rand(100,1000)
