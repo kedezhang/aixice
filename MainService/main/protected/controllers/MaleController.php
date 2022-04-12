@@ -4,6 +4,7 @@ class MaleController extends BaseController {
        $showList=array(
            'num'=>rand(100,1000)
        );
+       //测试
        $this->render('index',$showList);
    }
 }
